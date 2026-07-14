@@ -12,6 +12,7 @@ import {
   Zap
 } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import libraryImage from '../assets/library.webp';
 
 export function Projects() {
   const ref = useRef(null);
@@ -21,7 +22,7 @@ export function Projects() {
     {
       title: 'Library Management System',
       description: 'A comprehensive library management solution deployed at a high school in Kenya. Features include book cataloging, borrowing management, user authentication, automated notifications, and detailed reporting.',
-      image: 'src/app/assets/library.webp',
+      image: libraryImage,
       icon: BookOpen,
       status: 'Completed',
       year: '2025',

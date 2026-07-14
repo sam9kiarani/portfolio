@@ -12,18 +12,6 @@ export function Footer() {
               © {currentYear} All rights reserved.
             </p>
           </div>
-          
-          <div className="flex items-center gap-2 text-gray-400">
-            <span>Made with</span>
-            <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>in Kenya</span>
-          </div>
-
-          <div className="text-center md:text-right">
-            <p className="text-gray-400">
-              Powered by React, TypeScript & Tailwind CSS
-            </p>
-          </div>
         </div>
       </div>
     </footer>

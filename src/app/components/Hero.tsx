@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { useState, useEffect } from 'react';
+import heroImage from '../assets/Image1.webp';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -162,7 +163,7 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl rotate-6"></div>
               <div className="absolute inset-0 overflow-hidden rounded-3xl">
                 <ImageWithFallback
-                  src="src/app/assets/Image1.webp"
+                  src={heroImage}
                   alt="Developer at work"
                   className="w-full h-full object-cover"
                 />
