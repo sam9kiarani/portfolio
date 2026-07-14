@@ -68,7 +68,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/sam-kiarani-60598b360/',
+      url: 'https://www.linkedin.com/in/ismael-kariuki-60598b360/',
       color: 'hover:text-blue-600',
     },
     {
