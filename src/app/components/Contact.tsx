@@ -80,7 +80,7 @@ export function Contact() {
     {
       icon: MessageSquare,
       label: 'WhatsApp',
-      url: 'https://wa.me/254794831987?text=',
+      url: 'https://wa.me/254701986577?text=',
       color: 'hover:text-green-600',
       dark: 'dark:hover:text-green-400',
     },
@@ -147,7 +147,7 @@ export function Contact() {
                 I'll get back to you as soon as possible!
               </p>
               <a
-                href="https://wa.me/254794831987?text=Hey%20I%20have%20a%20project%20I%20would%20like%20to%20discuss%20with%20you.%20Please%20contact%20me."
+                href="https://wa.me/254701986577?text=Hey%20I%20have%20a%20project%20I%20would%20like%20to%20discuss%20with%20you.%20Please%20contact%20me."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items center justify-center space-x-2 bg-[#25D366] hover:bg-[#20BA5A] !text-white font-bold px-6 py-3 rounded-full transtion-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105"
